@@ -1,0 +1,17 @@
+{
+    "name": "mduzoylum/composer",
+    "description": "Ornek bir composer uygulaması",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehmet Duzoylum",
+            "email": "duzoylummehmet@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"mduzoylum\\Composer\\": "src/"}
+    },
+    "require": {}
+}

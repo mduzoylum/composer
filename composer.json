@@ -10,11 +10,23 @@
         }
     ],
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/mduzoylum/composer" }
+        { 
+         "type": "vcs",
+         "name": "mduzoylum/composer",
+         "url": "https://github.com/mduzoylum/composer",
+         "branch": "1.x"
+        }
     ],
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"mduzoylum\\Composer\\": "src/"}
     },
-    "require-all": true
+    "require":{
+        "mduzoylum/composer":"1.*"
+    },
+    "config":{
+        "github-oauth":{
+            "github.com": "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"
+        }
+    }
 }

@@ -9,6 +9,9 @@
             "email": "duzoylummehmet@gmail.com"
         }
     ],
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/mduzoylum/composer" }
+    ],
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"mduzoylum\\Composer\\": "src/"}

@@ -13,7 +13,8 @@
         { 
          "type": "vcs",
          "name": "mduzoylum/composer",
-         "url": "https://github.com/mduzoylum/composer.git"
+         "url": "https://github.com/mduzoylum/composer.git",
+         "branch" :"1.x"
         }
     ],
     "minimum-stability": "stable",

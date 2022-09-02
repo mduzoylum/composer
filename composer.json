@@ -16,5 +16,5 @@
     "autoload": {
         "psr-4": {"mduzoylum\\Composer\\": "src/"}
     },
-    "require": {}
+    "require-all": true
 }
